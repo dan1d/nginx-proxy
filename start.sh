@@ -8,7 +8,7 @@ docker-compose up -d
 
 echo starting pictures
 cd ../p1ctures
-docker-compose up -d
+docker-compose -f docker-compose.prod.yml up -d
 
 echo starting euca-estudio
 cd ../euca-estudio
