@@ -4,7 +4,7 @@ echo starting apps
 echo starting porfolio 
 cd ../portfolio-dan1d
 docker-compose down
-docker-compose -f docker-compose.prod.yml up -d
+docker-compose up -d
 
 echo starting pictures
 cd ../p1ctures
