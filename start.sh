@@ -1,16 +1,17 @@
 #!/bin/bash
 echo starting apps
 
-echo starting porfolio api
-cd ../porfolio
-docker-compose up -d
-
-echo starting porfolio FE
+echo starting porfolio 
 cd ../portfolio-dan1d
 docker-compose up -d
 
+
 echo starting pictures
 cd ../p1ctures
+docker-compose up -d
+
+echo starting euca-estudio
+cd ../euca-estudio
 docker-compose up -d
 
 echo starting reverse proxy nginx
